@@ -1,0 +1,87 @@
+body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+        .nav {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+        .haut {
+            margin-bottom: 30px;
+            color: #667eea;
+            font-size: 2em;
+        }
+        .box {
+            text-align: left;
+        }
+        .box label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .box input[type="email"], .box input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+            box-sizing: border-box;
+            transition: border-color 0.3s;
+        }
+        .box input[type="email"]:focus, .box input[type="password"]:focus {
+            border-color: #667eea;
+            outline: none;
+        }
+        .box input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .box a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        .box a:hover {
+            text-decoration: underline;
+        }
+        .btn {
+            margin-top: 20px;
+        }
+        .btn input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .btn input[type="submit"]:hover {
+            background: #5a6fd8;
+        }
+        .compte {
+            margin-top: 20px;
+        }
+        .compte a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        .compte a:hover {
+            text-decoration: underline;
+        }
+        p[style*="color:red"] {
+            color: red !important;
+        }
